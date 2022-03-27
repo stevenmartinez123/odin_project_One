@@ -5,6 +5,8 @@
 	border: 0;
 }
 
+/******************************************************** HEADER *******************************************************/
+
 /*header styling */
 header {
     justify-content: space-between;
@@ -28,6 +30,8 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+/******************************************************** First Section *******************************************************/
 
 .first {
     background-color: #1F2937;
@@ -88,23 +92,44 @@ ul {
     margin-bottom: 4em;
 }
 
-.second-container {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 6em;
-    margin-left: 6em;
-    padding-top: 3em;
-}
+/******************************************************** Second Section *******************************************************/
 
 .second h1 {
-    text-align: center;
-    margin-top: 2em;
     font-family: 'Roboto';
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    font-weight: bolder;
 }
 
-.second-container img {
-    height: fit-content;
-}
+.second-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+  }
+
+  .second-container img{
+    width:150px;
+    height:150px;
+  }
+
+  .info {
+      text-align: center;
+      width: 150px;
+      font-family: 'Roboto';
+      font-weight:100;
+      font-size: smaller;
+  }
+
+  .info img {
+      border: 2px solid #3882F6;
+      border-radius: 8px;
+  }
+/******************************************************** Third Section *******************************************************/
+
+
 
 .third {
     background-color: #E5E7EB;
@@ -135,6 +160,9 @@ ul {
     font-family: 'Roboto';
 }
 
+/******************************************************** Footer *******************************************************/
+
+
 footer {
         display: flex;
         align-items: center;
@@ -151,6 +179,9 @@ footer {
     padding-top: .5em;
     padding-bottom: .5em;
 }
+
+/******************************************************** Fourth Section *******************************************************/
+
 
 .fourth-container {
     display: flex;
