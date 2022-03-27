@@ -28,7 +28,12 @@ header h1 {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 20px;
+}
+
+a {
+    color:#E5E7EB; 
+    text-decoration: none;
 }
 
 /******************************************************** First Section *******************************************************/
