@@ -100,6 +100,7 @@ ul {
     padding-top: 1em;
     padding-bottom: 1.5em;
     font-weight: bolder;
+    font-size: 32px;
 }
 
 .second-container {
@@ -126,6 +127,10 @@ ul {
   .info img {
       border: 2px solid #3882F6;
       border-radius: 8px;
+  }
+
+  .text {
+      margin-top: 4px;
   }
 /******************************************************** Third Section *******************************************************/
 
